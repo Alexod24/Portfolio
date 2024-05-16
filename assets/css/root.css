@@ -1,0 +1,13 @@
+:root {
+    --clr-primary: #cfe4f5;
+
+    --clr-black: #111111;
+    --clr-white: #fefefe;
+    --clr-light: #282828;
+
+}
+
+::selection {
+    background-color: var(--clr-primary);
+    color: var(--clr-black);
+}
