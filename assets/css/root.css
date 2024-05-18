@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --clr-primary: #cfe4f5;
 
@@ -11,3 +13,64 @@
     background-color: var(--clr-primary);
     color: var(--clr-black);
 }
+
+/* Configuracion general */
+
+*,*::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Manrope", sans-serif ;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+
+    position: relative;
+}
+
+h1 ,h2 {
+    line-height: 1.2;
+}
+
+a,
+input, 
+button {
+
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    vertical-align: middle;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: baseline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
