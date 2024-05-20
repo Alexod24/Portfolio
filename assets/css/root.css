@@ -14,62 +14,6 @@
     color: var(--clr-black);
 }
 
-/* Configuracion general */
-
-*,*::before, *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-body {
-    font-family: "Manrope", sans-serif ;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 1.5;
-
-    position: relative;
-}
-
-h1 ,h2 {
-    line-height: 1.2;
-}
-
-a,
-input, 
-button {
-
-    display: inline-block;
-    outline: none;
-    border: none;
-    background-color: transparent;
-
-    font-family: "Poppins", sans-serif;
-
-}
-
-a{
-    text-decoration: none;
-}
-
-i{
-    vertical-align: middle;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: baseline;
-}
-
-ul{
-    list-style-type: none;
-}
 
 
 
