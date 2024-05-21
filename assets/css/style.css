@@ -1,4 +1,5 @@
 @import url('root.css');
+@import url('nav.css');
 
 /* Configuracion general */
 
@@ -108,7 +109,34 @@ ul{
     color: var(--clr-white);
  }
 
+ /* Seccion del header */
+
+
+ header .logo{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--clr-black);
+ }
+
+ header .logo span{
+    font-weight: 400;
+    margin-right: 3px;
+ }
+
+
  /* Hamb, lineas para el responsive */
+ header {
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+ }
+
+ header .container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+ }
 
  .hamb {
     width: 32px;
@@ -129,7 +157,7 @@ ul{
  }
 
  .hamb span#mid {
-    margin: 7px 0;
+    margin: 7px 0px;
  }
  
  .hamb.active span#top {
