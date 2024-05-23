@@ -1,7 +1,7 @@
 .nav {
     position: fixed;
     top: 0;
-    left: 0px;
+    left: -110%;
     z-index: 1;
 
     width: 100vw;
@@ -13,5 +13,25 @@
     align-items: center;
     justify-content: center;
 
+    transition: .3s left;
+}
+
+.nav.slide {
+    left: 0;
+}
+
+.nav .nav__menu{
+    display: grid;
+    gap: 24px;
+}
+
+.nav a {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--clr-black);
+}
+
+.nav a:hover{
+    color: #4480b0;
 }
 

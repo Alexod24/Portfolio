@@ -1,0 +1,43 @@
+/* Seccion del header */
+header {
+    width: 100%;
+    height: auto;
+    padding: 45px 0;
+    transition-duration: .3s;
+    transition-property: padding background-color box-shadow;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+ }
+
+ header.sticky {
+    background-color: #cfe4f52b;
+    padding: 20px 0;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+ }
+
+ header .container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header .container span{
+    color: red;
+
+ }
+
+ header .logo {
+   font-size: 24px;
+   font-weight: 500;
+   color: var(--clr-black);
+ }
+ 
+ header .logo span {
+   font-weight: 400;
+   margin-right: 3px;
+ }
