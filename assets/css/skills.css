@@ -1,0 +1,50 @@
+.skills {
+    background-color: #fafbfc;
+}
+
+.skills__right{
+    max-width: 100%;
+}
+
+.skills__text{
+    margin-bottom: 32px;
+}
+
+.skills__group{
+    max-width: 500px;
+}
+
+.skills__group li {
+    margin: 24px 0;
+}
+
+.skills__group li .bar{
+    background-color: var(--clr-primary);
+    display: block;
+    height: 3px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.skills__group li .bar span {
+    display: block;
+    height: 100%;
+
+    background-color: var(--clr-black);
+}
+
+.skills__group li .bar .design{
+    width: 90%;
+}
+
+.skills__group li .bar .art {
+    width: 80%;
+}
+
+.skills__group li .bar .branding{
+    width: 83%;
+}
+
+.skills__group li .bar .web{
+    width: 95%;
+}

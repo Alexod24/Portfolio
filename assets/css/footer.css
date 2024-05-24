@@ -1,0 +1,48 @@
+.contact {
+    background-color: #fafbfc;
+    background-image: url(../img/pattern_contact.png);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    background-size: auto;
+}
+
+.contact .container{
+    width: 650px;
+}
+
+.contact .container > * {
+    margin-bottom: 32px;
+}
+
+.contact .group__title{
+    font-size: 48px;
+    max-width: 450px;
+}
+
+.contact__text{
+    max-width: 400px;
+}
+
+.contact .mail {
+    color: var(--clr-light);
+    border-bottom: 1px solid var(--clr-light);
+}
+
+.contact .mail:is(:hover,:active){
+    color: #4771ee;
+    border-bottom: 1px solid #4771ee;
+}
+.contact .social{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.contact .social a{
+    color: var(--clr-light);
+}
+
+.contact .social a:is(:hover, :active){
+    color: #4771ee;
+}
+

@@ -1,0 +1,58 @@
+.portfolio .group__text{
+    text-align: center;
+}
+
+.portfolio__filter{
+    margin: 32px 0;
+}
+
+.portfolio__filter-nav{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.portfolio__filter-nav li{
+    cursor: pointer;
+    color: #969696;
+}
+
+.portfolio__filter-nav li:hover{
+    color: var(--clr-black);
+}
+
+.portfolio__gallery {
+    -webkit-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 24px;
+    column-gap: 24px;
+}
+
+.portfolio__gallery .item {
+    margin-bottom: 24px;
+    max-width: 100%;
+    transition: 0.3s filter;
+
+    /* mixitup animacion */
+
+    opacity: 0;
+    animation: fade .3s ease-in forwards;
+}
+
+@keyframes fade {
+    to{
+        opacity: 1;
+    }
+}
+
+
+/* Efecto de sombreado */
+
+.portfolio__gallery .item:hover{
+    filter: drop-shadow(7px 7px var(--clr-light));
+}
+
+.portfolio .action{
+    text-align: center;
+    margin-top: 48px;
+}

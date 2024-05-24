@@ -3,6 +3,11 @@
 @import url('header.css');
 @import url('hero.css');
 @import url('about.css');
+@import url('skills.css');
+@import url('portfolio.css');
+@import url('testimonios.css');
+@import url('awards.css');
+@import url('footer.css');
 
 /* Configuracion general */
 
@@ -15,6 +20,24 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+.about,
+.skills,
+.portfolio,
+.testimonials,
+.awards,
+.contact{
+    padding: 150px 0;
+}
+
+.about .container,
+.skills .container,
+.testimonials .container{
+    display: grid;
+    gap: 24px;
+    grid-template-columns:repeat(2,1fr);
+
 }
 
 body {
@@ -76,6 +99,7 @@ ul{
     background-color: var(--clr-black);
     border: 2px solid var(--clr-black);
     color: var(--clr-white);
+    padding: 12px 45px;
 }
 
 .btn:hover{
@@ -162,7 +186,7 @@ ul{
 
 .group__title{
    margin-top: 24px;
-   font-size: calc(24px+1vw);
+   font-size: calc(24px + 1vw);
    line-height: 1.4;
 
 }

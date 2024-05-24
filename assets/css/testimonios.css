@@ -1,0 +1,15 @@
+.testimonials {
+    background-color: #fafbfc;
+}
+
+.testimonials .container{
+    gap: 80px;
+    align-items: center;
+}
+
+
+.testimonials__text{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 48px 0 24px;
+}

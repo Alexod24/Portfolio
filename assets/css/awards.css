@@ -1,0 +1,30 @@
+.awards__categories{
+    margin-top: 48px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.awards__categories a{
+    color: var(--clr-black);
+    padding-bottom: 24px;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+.awards__categories a:hover{
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--clr-primary);
+}
+
+.awards__categories a span{
+    display: block;
+}
+
+.awards__categories a .head{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.awards__categories a .desc{
+    font-size: 14px;
+}
