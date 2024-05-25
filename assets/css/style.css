@@ -100,6 +100,7 @@ ul{
     border: 2px solid var(--clr-black);
     color: var(--clr-white);
     padding: 12px 45px;
+    margin-right: 80px;
 }
 
 .btn:hover{

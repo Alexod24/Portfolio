@@ -46,5 +46,13 @@
 }
 
 .hero__img{
-    width: 45%;
+    width: 300px; /* Ajusta el tamaño según tu necesidad */
+   
+    margin-right: 150px;
 }
+
+.hero-alex__img{
+    width: 38%;
+}
+
+
