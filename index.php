@@ -72,7 +72,7 @@
                     </div>
                 </div>
 
-                <img src="assets/img/pf.jpg" alt="" class="hero__img">
+                <img src="assets/img/alex.jpg" alt="" class="hero__img">
             </div>
         </section>
 
